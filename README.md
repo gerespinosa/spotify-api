@@ -19,12 +19,6 @@ This application allows you to:
 - **Chart.js**: Library for creating charts to compare follower statistics between musical groups.
 - **Zod**: Library for schema validation.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/oasis-vs-linkinpark.git
-
 Proyecto basado en el reto de programación [#37 de Mouredev](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/37%20-%20OASIS%20VS%20LINKIN%20PARK/ejercicio.md).
 
 ## Descripción
@@ -45,9 +39,3 @@ Esta aplicación permite:
 - **Round-react**: Librería (por confirmar) para elementos interactivos o visualizaciones redondeadas.
 - **Chart.js**: Librería para crear gráficos y comparar seguidores entre grupos musicales.
 - **Zod**: Biblioteca para validación de esquemas de datos.
-
-## Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/oasis-vs-linkinpark.git
