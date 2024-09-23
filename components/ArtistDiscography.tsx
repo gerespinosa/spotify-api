@@ -24,7 +24,7 @@ const ArtistDiscography = ({ artistId }) => {
             console.log(discography)
         }
         fetchDiscography()
-    }, [artistId])
+    }, [artistId, discography, token])
 
     async function handleHover(id) {
         const res = await getTrackList(token, id)
