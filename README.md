@@ -25,8 +25,6 @@ This application allows you to:
    ```bash
    git clone https://github.com/your-username/oasis-vs-linkinpark.git
 
-
-
 Proyecto basado en el reto de programación [#37 de Mouredev](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/37%20-%20OASIS%20VS%20LINKIN%20PARK/ejercicio.md).
 
 ## Descripción
