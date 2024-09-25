@@ -40,7 +40,7 @@ const ArtistInfo = ({ artistId }) => {
         }
 
         fetchTopTracks()
-    }, [artistId])
+    }, [artistId, token])
 
     function handlePreview(uri: string) {
         router.push(uri)
