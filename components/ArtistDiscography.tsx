@@ -41,6 +41,7 @@ const ArtistDiscography = ({ artistId }: ArtistDiscographyProps) => {
                         discography.map((album, index) => {
                             return (
                                 <div key={index} className="album_card">
+                                    
                                     {/* Album cover */}
                                     <TooltipProvider>
                                         <Tooltip>

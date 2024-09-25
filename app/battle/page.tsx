@@ -8,7 +8,7 @@ const BattlePage = () => {
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            const token = localStorage.getItem('spotify_token');
+            const token = localStorage.getItem('storedToken');
             setIsTokenAvailable(!!token);
         }
     }, []);
