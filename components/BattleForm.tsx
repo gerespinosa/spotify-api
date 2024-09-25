@@ -20,7 +20,7 @@ const formSchema = z.object({
     }),
 })
 
-const ArtistForm = ({ onArtistHandle }) => {
+const BattleForm: React.FC<BattleFormProps> = ({ onArtistHandle }) => {
 
     const token: string | null = localStorage.getItem('storedToken')
 
@@ -71,4 +71,4 @@ const ArtistForm = ({ onArtistHandle }) => {
     )
 };
 
-export default ArtistForm;
+export default BattleForm;

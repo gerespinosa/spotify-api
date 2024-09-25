@@ -85,7 +85,7 @@ export const getDiscography = async (token: string | null, artistId: string) => 
 }
 
 // Get the tracklist for each albium (as tooltip)
-export const getTrackList = async (token: string, albumId: string) => {
+export const getTrackList = async (token: string | null, albumId: string) => {
     try {
         const res = await fetch(`https://api.spotify.com/v1/albums/${albumId}/tracks`, {
             headers: {

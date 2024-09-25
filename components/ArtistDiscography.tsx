@@ -10,12 +10,12 @@ import {
 } from "@/components/ui/tooltip"
 import { formatSeconds } from "@/lib/utils";
 
-const ArtistDiscography = ({ artistId }) => {
+const ArtistDiscography = ({ artistId }: ArtistDiscographyProps) => {
 
     const token = localStorage.getItem('storedToken')
 
-    const [discography, setDiscography] = useState([])
-    const [tracklist, setTracklist] = useState([])
+    const [discography, setDiscography] = useState<Album[]>([])
+    const [tracklist, setTracklist] = useState<Tracklist[]>([])
 
     useEffect(() => {
         const fetchDiscography = async () => {
@@ -26,7 +26,7 @@ const ArtistDiscography = ({ artistId }) => {
         fetchDiscography()
     }, [artistId, discography, token])
 
-    async function handleHover(id) {
+    async function handleHover(id: string) {
         const res = await getTrackList(token, id)
         const hoveredTracklist = res.items
         setTracklist(hoveredTracklist)

@@ -23,9 +23,9 @@ import {
 import { useRouter } from "next/navigation";
 import { formatSeconds } from "@/lib/utils";
 
-const ArtistInfo = ({ artistId }) => {
+const ArtistInfo = ({ artistId }: ArtistInfoProps) => {
 
-    const [topTracksArray, setTopTracksArray] = useState([])
+    const [topTracksArray, setTopTracksArray] = useState<Track[]>([])
 
     const router = useRouter()
 
